@@ -143,6 +143,8 @@ ol {
     margin: 1vh auto;
     font-size: 120%;
 }
+
+.recipe .steps li::before::after { content: 'H'; }
   
 .recipe .steps li::before {
     content: counter(item) ".";
